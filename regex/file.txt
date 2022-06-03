@@ -1,0 +1,6 @@
+test1
+hiiamregexstring
+hi i am regex string
+Hi I am Regex String
+12354
+\%^#$
