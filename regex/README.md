@@ -38,7 +38,8 @@ grep -E "^[1-5]{5}\b"
 
 ```bash
 grep -E "\\\\%\^\#\\$" file.txt
-/ needs to be escaped twice because it's a special character for both shell and grep. 
+\ needs to be escaped twice because it's a special character for both shell and grep.
+\$ needs to be escaped because it's a special character for grep.
 ```
 
 `^` Next character is the start in its line
