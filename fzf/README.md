@@ -12,4 +12,4 @@
 - `ls | fzf —preview bat`
 
 2. With Git
-- `git branch | fzf --border --height=30% --info=inline | sed '\''s/\*.//g;s/\+.//g'\'' | xargs -I '\''{}'\'' git checkout {}'`
+- `git branch | fzf --border --height=30% --info=inline | sed 's/^\*//g;s/\s//g' | xargs -I {} git checkout {}`
